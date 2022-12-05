@@ -8,3 +8,7 @@ sudo mkdir Videos
 
 cd Documents
 for i in 1 2 3 4 5; do mkdir folder$i; done
+
+cd ..
+
+for i in 1 2 3 4 5; do sudo useradd -m --groups sudo user$i; done

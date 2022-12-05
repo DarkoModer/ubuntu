@@ -19,3 +19,8 @@ sudo apt install ufw
 sudo apt install git
 sudo apt install nginx
 sudo apt install net-tools
+
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo docker run hello-world

@@ -7,7 +7,7 @@ sudo mkdir Pictures
 sudo mkdir Videos
 
 cd Documents
-for i in 1 2 3 4 5; do mkdir folder$i; done
+for i in 1 2 3 4 5; do sudo mkdir folder$i; done
 
 cd ..
 
